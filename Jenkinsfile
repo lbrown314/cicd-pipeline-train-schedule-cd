@@ -38,6 +38,11 @@ pipeline {
                 echo 'Running Post-Test 5'
             }
         }
+        stage('Post-Test 5') {
+            steps {
+                echo 'Running Post-Test 5'
+            }
+        }
         stage('Deploying to staging') {
             steps {
                 echo 'Deploying to staging'
