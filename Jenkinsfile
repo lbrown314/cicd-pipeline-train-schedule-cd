@@ -9,6 +9,7 @@ pipeline {
         stage('Pre-Test 2') {
             steps {
                 echo 'Running Pre-Test 2'
+                exit 1 
             }
         }
         stage('Build') {
